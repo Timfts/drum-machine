@@ -33,7 +33,7 @@ export default class Machine extends Component {
                     <div className="col-7">
                         <Pad  binding={this.state.banks[this.state.currentSound]} />
                     </div>
-                    <div className="col-5">
+                    <div className="col-5 p-2">
                         <button onClick={ this.changeBank }> teste </button>
                     </div>
                 </div>

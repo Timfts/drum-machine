@@ -5,9 +5,9 @@ export default class Navbar extends Component {
 
     render() {
         return(
-            <nav class="navbar navbar-dark bg-primary fixed-top">
-                <a class="navbar-brand" href="/">
-                    <img src={logo} width="30" height="30" class="d-inline-block align-top" alt="" />
+            <nav className="navbar navbar-dark bg-primary fixed-top">
+                <a className="navbar-brand" href="/">
+                    <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="" />
                         Drum Machine
                 </a>
             </nav>
