@@ -1,25 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import Machine from './components/Machine';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="App bg-secondary" style={ {height: '100vh'} }>
+        <Navbar />
+        <div className="row align-items-center justify-content-center h-100">
+            <div className="col-12 col-md-8">
+              <Machine />
+            </div>
+        </div>
       </div>
     );
   }
