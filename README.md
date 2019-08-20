@@ -1,3 +1,3 @@
 ## Drum machine
 
-Live on [https://timfont.github.io/drum-machine/](https://timfont.github.io/drum-machine/)
+Live on [https://timfts.github.io/drum-machine/](https://timfont.github.io/drum-machine/)
